@@ -1,0 +1,91 @@
+body
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+div
+{
+	border-radius: 2px;
+}
+#controlbar 
+{
+	height: 15%;
+	width: 100%;
+	left: 0px;
+	top: 85%;
+	position: absolute;
+	z-index: 1000;
+}
+#leftsider
+{
+	height: 85%;
+	width: 25%;
+	left: 0px;
+	top: 0px;
+	background-color: #eeeeee;
+	position: absolute;
+	box-shadow: 1px 1px 5px #cccccc;
+	z-index: 1004;
+}
+#mainshowbar
+{
+	height: 85%;
+	width: 75%;
+	left: 25%;
+	top: 0px;
+	background-color: #ffffff;
+	position: absolute;
+	box-shadow: 1px 1px 5px #888888;
+	z-index: 1003;
+}
+.controlbar-bg
+{
+	position: relative;
+	z-index: 1001;
+	height: 100%;
+	width: 100%;
+}
+.blur
+{
+	background-image: url(/img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 150% 150%;
+	background-position: center;
+	-webkit-filter: blur(30px);
+	-moz-filter: blur(30px);
+	-ms-filter: blur(30px);
+	filter: blur(30px);
+	position: relative;
+	z-index: 1002;
+	height: 100%;
+	width: 100%;
+}
+.topctrl
+{
+	top: 0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+	position: relative;
+	box-shadow: 1px 1px 5px #888888;
+	z-index: 1005;
+	background-color: #fff;
+}
+.leftctrl
+{
+	position: relative;
+	background-color: #66ccff;
+	top: 0px;
+	left: 20%;
+	height: 100%;
+	width: 20%;
+}
+.leftimg
+{
+	position: relative;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 1003;
+}
